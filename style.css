@@ -42,7 +42,7 @@ body {
     margin: 10px;
     border: 1px solid white;
     text-align: center;
-    width: 500px;
+    width: 600px;
     padding: 10px;
     background: rgba(255, 255, 179, 0.3);
     border-radius: 15px;
@@ -118,4 +118,86 @@ body {
     padding: 4px;
     margin-top: 6px;
     width: 13%;
+}
+
+
+@media screen and (min-width: 1px) and (max-width: 330px) {
+    .header-img {
+        width: 30%;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .button-container a {
+        width: 80%;
+    }
+
+    .sub-heading {
+        font-size: 20px;
+    }
+
+    .img-sec-item {
+        width: 90%;
+        padding: 8px;
+    }
+
+    .social-container {
+        width: 82%;
+        margin-bottom: 20px;
+    }
+
+    .social {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 330px) and (max-width: 376px) {
+    .header-img {
+        width: 28%;
+    }
+
+    .button-container a {
+        width: 280px !important;
+    }
+
+    .img-sec-item {
+        width: 70% !important;
+        padding: 8px;
+    }
+
+    .social-container {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .social {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 550px) {
+    .header-img {
+        width: 25%;
+    }
+
+    .button-container a {
+        width: 350px;
+    }
+
+    .img-sec-item {
+        width: 55%;
+        padding: 8px;
+    }
+
+    .social-container {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .social {
+        width: 18%;
+    }
+
 }
