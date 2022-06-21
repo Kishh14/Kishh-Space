@@ -121,7 +121,7 @@ body {
 
 @media screen and (min-width: 1px) and (max-width: 330px) {
     .header-img {
-        width: 37%;
+        width: 40%;
     }
 
     .heading {
@@ -154,7 +154,7 @@ body {
 
 @media screen and (min-width: 330px) and (max-width: 376px) {
     .header-img {
-        width: 32%;
+        width: 35%;
     }
 
     .button-container a {
@@ -179,7 +179,7 @@ body {
 
 @media screen and (min-width: 376px) and (max-width: 550px) {
     .header-img {
-        width: 28%;
+        width: 30%;
     }
 
     .button-container a {
