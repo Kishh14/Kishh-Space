@@ -54,7 +54,8 @@ body {
 }
 
 .images-section {
-    display: flex;
+    display: none;
+/*     display: flex; */
     flex-direction: row;
     justify-content: space-evenly;
     margin-right: 108px;
